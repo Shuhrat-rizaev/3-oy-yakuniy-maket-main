@@ -1,0 +1,100 @@
+.hero {
+  display: flex;
+  gap: 80px;
+  margin-top: 100px;
+  position: relative;
+}
+.hero__title {
+  max-width: 100%;
+  font-family: "Exo2-SemiBold";
+  font-size: 52px;
+  color: $secondary;
+  padding-top: 81px;
+}
+.hero__text {
+  max-width: 100%;
+  font-size: 16px;
+  color: $primary;
+  padding-top: 40px;
+}
+.hero__info {
+  max-width: 100%;
+  font-family: "PTSans-Bold";
+  font-size: 16px;
+  color: $secondary;
+  padding-top: 40px;
+}
+.hero__logo {
+  position: absolute;
+  bottom: 130px;
+  left: 0;
+}
+.hero__mobile-image {
+  display: none;
+}
+@media only screen and (max-width: 950px) {
+  .container {
+    padding: 0 40px;
+  }
+  .hero__logo {
+    top: 210px;
+    left: 45.8%;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero__title {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 45px;
+  }
+  .hero__text {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0;
+  }
+  .hero__info {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero__image {
+    max-width: 100%;
+  }
+  .hero__mobile-image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 596px) {
+  .container {
+    padding: 0 20px;
+  }
+  .hero__title {
+    max-width: 100%;
+  }
+  .hero__text {
+    max-width: 100%;
+  }
+  .hero__info {
+    max-width: 100%;
+  }
+  .hero__image {
+    display: none;
+  }
+  .hero__mobile-image {
+    display: block;
+    max-width: 100%;
+  }
+  .hero__text {
+    font-size: 20px;
+  }
+  .hero__logo {
+    display: none;
+  }
+}

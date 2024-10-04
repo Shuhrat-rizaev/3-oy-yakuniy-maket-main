@@ -1,0 +1,418 @@
+.benefit__header {
+  margin-top: 67px;
+  background-color: #0b7572;
+  height: 453.5px;
+  position: relative;
+}
+.rectangle__benefit {
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 59% 100%);
+  position: absolute;
+  top: 0;
+}
+.benefit__title {
+  font-family: "Exo2-SemiBold";
+  color: #fff;
+  max-width: 550px;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: left;
+  padding-top: 187px;
+  padding-left: 90px;
+  margin-bottom: 166.5px;
+}
+
+// benefit card //
+
+.benefit__cards {
+  display: flex;
+  gap: 140px;
+}
+.benefit__card {
+  display: flex;
+  gap: 140px;
+}
+.benefit__parts {
+  display: flex;
+}
+.benefit__part {
+  display: flex;
+}
+.benefit__title-second {
+  max-width: 327px;
+  padding-top: 72px;
+  margin-left: 40px;
+}
+.benefit__title-seconds {
+  max-width: 327px;
+  margin-left: 40px;
+  padding-top: 72px;
+}
+.benefit__text {
+  padding-top: 16px;
+  margin-left: 40px;
+  max-width: 291px;
+}
+.benefit__texts {
+  padding-top: 16px;
+  margin-left: 40px;
+  max-width: 291px;
+}
+.benefit__icon {
+  padding-top: 72px;
+  margin-left: 66px;
+}
+.benefit__icons {
+  margin-left: 66px;
+  padding-top: 62px;
+}
+
+// woks parts //
+.works__parts {
+  margin-top: 120px;
+}
+.works__title {
+  font-family: "Exo2-SemiBold";
+  max-width: 687px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: $primary;
+}
+.works__text {
+  max-width: 667px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 35px;
+}
+.works__cards {
+  display: flex;
+  gap: 30px;
+}
+.works__cards-title {
+  max-width: 327px;
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: $secondary;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+.works__cards-text {
+  max-width: 291px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $primary;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+.works__cards-cost {
+  max-width: 92px;
+  font-family: "Exo2-SemiBold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  color: $secondary;
+  margin-left: 32px;
+}
+.works__cards-images {
+  display: none;
+}
+// client parts //
+.client__parts {
+  display: flex;
+  height: 917px;
+  margin-top: 100px;
+  background-color: #0b7572;
+}
+.client__title {
+  max-width: 477px;
+  margin-top: 100px;
+  margin-left: 81px;
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #ffffff;
+}
+.client__paper {
+  background-color: #f9f9fb;
+  margin-top: 85px;
+  max-width: 652px;
+  height: 747px;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.client__paper-header {
+  display: flex;
+  gap: 191px;
+}
+.client__paper-headerlogo {
+  margin-left: 41px;
+  margin-top: 28px;
+}
+.client__paper-headertext {
+  max-width: 274px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  color: $primary;
+  margin-top: 28px;
+  margin-right: 40px;
+}
+.hr__line {
+  max-width: 588px;
+  border: 1px 1px 1px 1px;
+  border: 1px solid #d7d7dd;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.paper__title-parts {
+  background-color: #0b7572;
+  display: flex;
+  gap: 72px;
+  max-width: 588px;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.paper__title {
+  max-width: 74px;
+  font-family: "Exo2-SemiBold";
+  line-height: 24px;
+  text-align: left;
+  margin-left: 28px;
+  color: #ffffff;
+}
+.paper__vector {
+  display: flex;
+  gap: 4px;
+}
+.paper__list-firts {
+  display: flex;
+}
+.paper__list-images {
+  margin-left: 40px;
+  margin-top: 24px;
+  max-width: 81px;
+  max-height: 74px;
+}
+.paper__list-text {
+  max-width: 112px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #6b6b6c;
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-bottom: 10px;
+}
+.paper__list-cost {
+  max-width: 84px;
+  font-family: "Exo2-SemiBold";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.9px;
+  text-align: left;
+  color: $secondary;
+}
+.paper__list-title {
+  font-family: "PTSans-Regular";
+  max-width: 134px;
+  font-size: 14px;
+  line-height: 18.9px;
+  text-align: left;
+  color: $secondary;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+.paper__list-textsecond {
+  max-width: 141px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: $primary;
+  margin-left: 36px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.paper__vector {
+  margin-left: 36px;
+}
+.paper__list-textport {
+  max-width: 114px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: $primary;
+  margin-left: 36px;
+  margin-top: 10px;
+}
+.paper__phone-number {
+  max-width: 117px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: $secondary;
+  margin-left: 36px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 950px) {
+  .container {
+    padding: 0 40px;
+  }
+  .benefit__icon {
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .benefit__title-second {
+    max-width: 331.64px;
+    height: 21px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .benefit__title-seconds {
+    max-width: 331.64px;
+    height: 21px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .benefit__text {
+    max-width: 600px;
+    height: 41px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .benefit__texts {
+    max-width: 600px;
+    height: 41px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .benefit__card {
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    text-align: left;
+    max-width: 500%;
+  }
+  .benefit__cards {
+    flex-direction: column;
+    gap: 0;
+  }
+  .works__title {
+    font-family: "Exo2-SemiBold";
+    max-width: 100%;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    text-align: center;
+    color: #363738;
+  }
+  .works__text {
+    text-align: center;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .works__cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .works__cards-image {
+    display: none;
+  }
+  .works__cards-images {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .works__cards-title {
+    font-family: "Exo2-SemiBold";
+    max-width: 100%;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: #363738;
+  }
+  .works__cards-text {
+    max-width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .works__cards-cost {
+    max-width: 100%;
+    text-align: center;
+    color: black;
+  }
+  .client__parts {
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  .client__paper {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-height: 630px;
+  }
+  .client__title {
+    margin-left: 252px;
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  .container {
+    padding: 0 20px;
+  }
+  .benefit__header {
+    background-color: white;
+    height: 50px;
+  }
+  .rectangle__benefit {
+    display: none;
+  }
+
+  .benefit__title {
+    color: #363738;
+    padding-top: 0;
+    max-width: 100%;
+    height: 64px;
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 0;
+  }
+  .client__title {
+    max-width: 100%;
+    margin-left: 275px;
+  }
+  .client__paper {
+    max-height: 630px;
+  }
+  .client__parts {
+    margin-top: 50px;
+  }
+}

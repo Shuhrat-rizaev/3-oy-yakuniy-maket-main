@@ -1,0 +1,190 @@
+.supply {
+  margin-top: 120px;
+}
+.supple__header-title {
+  max-width: 687px;
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: $secondary;
+  margin-bottom: 48px;
+}
+.supply__cards {
+  display: flex;
+  gap: 56px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 15px 15px #0000001f;
+  margin-left: 49px;
+  margin-bottom: 24px;
+}
+.supple__cards-image {
+  margin-top: 32px;
+  margin-left: 96px;
+  margin-bottom: 32px;
+}
+.supply__cards-title {
+  max-width: 258px;
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: #363738;
+  margin-top: 32px;
+}
+.supple__cards-text {
+  max-width: 568px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6b6b6c;
+  margin-top: 48px;
+}
+
+.trust__part {
+  margin-top: 100px;
+}
+.trust__header-title {
+  max-width: 687px;
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+  margin-bottom: 48px;
+}
+.trust__card1 {
+  display: flex;
+  gap: 133px;
+  margin-top: 80px;
+}
+.trust__card2 {
+  display: flex;
+  gap: 133px;
+  margin-top: 80px;
+}
+.trust__logo {
+  display: none;
+}
+// team //
+
+.team {
+  margin-top: 100px;
+}
+
+.team__header-title {
+  max-width: 687px;
+  font-family: "Exo2-SemiBold";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+  margin-bottom: 48px;
+}
+.team__cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 24px;
+}
+.team__card1 {
+  width: 600px;
+  display: flex;
+  gap: 40px;
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 4px 4px 15px 15px #00000026;
+}
+.radius {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.team__card-title {
+  max-width: 165px;
+  font-family: "Exo2-SemiBold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #363738;
+  margin-top: 47px;
+  margin-bottom: 8px;
+}
+.team__card-image {
+  margin-top: 32px;
+  margin-bottom: 40px;
+  margin-left: 83px;
+}
+.team__card-text {
+  max-width: 172px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #6b6b6c;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 950px) {
+  .container {
+    padding: 0 40px;
+  }
+  .supple__header-title {
+    max-width: 687px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    text-align: left;
+    margin-top: 88px;
+  }
+  .supple__cards-image {
+    display: none;
+  }
+  .supply__cards-title {
+    margin-top: 40px;
+    margin-left: 85px;
+  }
+  .supple__cards-text {
+    margin-top: 40px;
+    margin-left: 85px;
+    max-width: 100%;
+    margin-bottom: 48px;
+  }
+  .trust__part {
+    display: none;
+  }
+  .trust__logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 88px;
+  }
+  .team__card1 {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .team__header-title {
+    width: 687px;
+    margin-left: 86px;
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  .container {
+    padding: 0 40px;
+  }
+  .team__cards {
+    flex-direction: column;
+  }
+  .team__card1 {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .team__header-title {
+    max-width: 100%;
+    text-align: center;
+    margin-left: 235px;
+  }
+}
